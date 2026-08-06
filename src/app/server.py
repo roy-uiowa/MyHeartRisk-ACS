@@ -15,6 +15,7 @@ from pathlib import Path
 from src.utils.prediction import predict_risk
 from src.utils.LIME import explain
 from src.utils.FRS import getFRSRisk
+from src.utils.ACS import calculate_acs, ACSData
 SEED = 42
 
 
@@ -109,7 +110,7 @@ def predict(data:dict):
 
 # ACS Endpoint
 @app.post('/acs',summary="Predict Risk Probability and Explanation")
-def predict_acs(data:dict):
+def predict_acs(data:ACSData):
     """
     Predicts the class and probability for a given input.
 
@@ -153,24 +154,27 @@ def predict_acs(data:dict):
     """
 
     lime_data={
-        "ptageatnotification": data["ptageatnotification"],
-        "canginapast2wk": data["canginapast2wk"],
-        "killipclass": data["killipclass"],
-        "heartrate": data["heartrate"],
-        "ldlc": data["ldlc"],
-        "hdlc": data["hdlc"],
-        "fbg": data["fbg"],
-        "ecgabnormlocationll":data["ecgabnormlocationll"],
-        "cardiaccath": data["cardiaccath"],
-        "cabg": data["cabg"],
-        "oralhypogly": data["oralhypogly"],
-        "antiarr": data["antiarr"],
-        "statin": data["statin"],
-        "lipidla": data["lipidla"]
+        "ptageatnotification": data.ptageatnotification,
+        "canginapast2wk": data.canginapast2wk,
+        "killipclass": data.killipclass,
+        "heartrate": data.heartrate,
+        "ldlc": data.ldlc,
+        "hdlc": data.hdlc,
+        "fbg": data.fbg,
+        "ecgabnormlocationll": data.ecgabnormlocationll,
+        "cardiaccath": data.cardiaccath,
+        "cabg": data.cabg,
+        "oralhypogly": data.oralhypogly,
+        "antiarr": data.antiarr,
+        "statin": data.statin,
+        "lipidla": data.lipidla
     }
+
+
         
 
     model_prediction = predict_risk(lime_data, lime_model, class_names)
+    model_prediction['GRACE_risk_score'], model_prediction['category'] = calculate_acs(data)
     contribution_to_death = explain(lime_data, explainer, lime_model)
     result = {
         'model_prediction': model_prediction,

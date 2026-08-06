@@ -31,5 +31,5 @@ jobs:
         env: 
             IMAGE_TAG: latest_v1
         run: | 
-          docker build MyHeatRisk-ACS --file MyHeartRisk-ACS/Dockerfile --tag ${{ secrets.DOCKERHUB_USERNAME }}/myheartrisk-acs-api:$IMAGE_TAG
+          docker build MyHeartRisk-ACS --file MyHeartRisk-ACS/Dockerfile --tag ${{ secrets.DOCKERHUB_USERNAME }}/myheartrisk-acs-api:$IMAGE_TAG
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/myheartrisk-acs-api:$IMAGE_TAG

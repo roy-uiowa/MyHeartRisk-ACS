@@ -44,3 +44,4 @@ try:
 
 except requests.exceptions.RequestException as e:
     print(f"Request failed: {e}")
+    print(response.text)
