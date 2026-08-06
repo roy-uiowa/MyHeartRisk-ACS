@@ -2,8 +2,7 @@ name: Build and Push to Docker Hub (Production)
 
 on:
   push:
-    tags:
-      - 'production*'
+    branches: [production]
 
 jobs:
   build-and-deploy:

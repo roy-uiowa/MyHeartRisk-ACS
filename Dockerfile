@@ -14,7 +14,7 @@ COPY . .
 RUN echo "Listing files in $PWD:" && ls -alh
 
 ENV PYTHONUNBUFFERED=1 \ 
-    PYTHONPATH=/app/src
+    PYTHONPATH=/source
 
 EXPOSE 8000
 
