@@ -1,0 +1,212 @@
+{
+    "canginapast2wk": {
+      "advice_en": [
+        "Try deep breathing to reduce stress.",
+        "Write down when and why your symptoms happen in a diary.",
+        "See your heart doctor regularly.",
+        "Think about joining a special exercise program for heart health."
+      ],
+      "advice_bm": [
+        "Cuba lakukan pernafasan dalam untuk melegakan tekanan.",
+        "Catat dalam buku bila dan kenapa gejala berlaku.",
+        "Jumpa doktor jantung secara berkala.",
+        "Cuba sertai program senaman khas untuk jantung."
+      ]
+    },
+    "ecgabnormlocationll": {
+      "advice_en": [
+        "Go for all your scheduled ECG check-ups.",
+        "Tell the doctor if you feel new or worsening symptoms.",
+        "Consider wearing a medical alert bracelet.",
+        "Take your medicine exactly as your doctor says."
+      ],
+      "advice_bm": [
+        "Datang untuk semua janji temu ECG.",
+        "Beritahu doktor kalau ada rasa sakit atau gejala baru.",
+        "Pertimbangkan untuk pakai gelang amaran perubatan.",
+        "Makan ubat ikut arahan doktor dengan betul."
+      ]
+    },
+    "cardiaccath": {
+      "advice_en": [
+        "Follow all the care instructions after your procedure.",
+        "Keep up with regular heart check-ups.",
+        "Talk to your doctor if you have any concerns."
+      ],
+      "advice_bm": [
+        "Ikut semua arahan penjagaan selepas rawatan.",
+        "Jumpa doktor jantung secara berkala.",
+        "Bincang dengan doktor jika ada rasa risau."
+      ]
+    },
+    "cabg": {
+      "advice_en": [
+        "Join a heart exercise program.",
+        "Take care of your wound properly as instructed.",
+        "Increase physical activity slowly as advised.",
+        "Make sure to get enough sleep."
+      ],
+      "advice_bm": [
+        "Sertai program senaman jantung.",
+        "Jaga luka dengan betul seperti yang diarahkan.",
+        "Tambah aktiviti fizikal perlahan-lahan seperti dinasihatkan.",
+        "Pastikan tidur cukup setiap hari."
+      ]
+    },
+    "oralhypogly": {
+      "advice_en": [
+        "Take your medicine as prescribed.",
+        "Check your blood sugar regularly.",
+        "Write down your blood sugar readings.",
+        "Know the signs of low blood sugar.",
+        "Always carry some quick sugar, like candy."
+      ],
+      "advice_bm": [
+        "Ambil ubat seperti yang ditetapkan.",
+        "Selalu periksa gula dalam darah.",
+        "Tulis bacaan gula dalam buku.",
+        "Kenali tanda-tanda gula darah rendah.",
+        "Sentiasa bawa gula-gula sebagai langkah berjaga-jaga."
+      ]
+    },
+    "antiarr": {
+      "advice_en": [
+        "Never skip or double your medicine dose.",
+        "Be aware of possible side effects.",
+        "Avoid medicines that might interact badly.",
+        "Check your heart rate regularly.",
+        "Keep an updated list of all your medications."
+      ],
+      "advice_bm": [
+        "Jangan sekali-kali melangkau atau menggandakan dos ubat.",
+        "Kenal pasti kesan sampingan ubat.",
+        "Elak ubat yang boleh beri kesan buruk bersama ubat ini.",
+        "Periksa denyutan jantung selalu.",
+        "Simpan senarai ubat terkini."
+      ]
+    },
+    "statin": {
+      "advice_en": [
+        "Take your medicine at the same time every day.",
+        "Tell your doctor if you feel muscle pain or weakness.",
+        "Have regular liver function tests.",
+        "Watch out for food that may interact with the medicine."
+      ],
+      "advice_bm": [
+        "Ambil ubat pada masa yang sama setiap hari.",
+        "Laporkan sakit atau lemah otot kepada doktor.",
+        "Selalu buat pemeriksaan fungsi hati.",
+        "Hati-hati dengan makanan yang boleh berinteraksi dengan ubat."
+      ]
+    },
+    "lipidla": {
+      "advice_en": [
+        "Take your medicine consistently every day.",
+        "Combine it with a healthy diet.",
+        "Report unusual side effects to your doctor.",
+        "Understand your target cholesterol levels."
+      ],
+      "advice_bm": [
+        "Ambil ubat secara tetap setiap hari.",
+        "Gabungkan dengan pemakanan yang sihat.",
+        "Laporkan kesan sampingan yang pelik.",
+        "Fahami tahap kolesterol yang disasarkan."
+      ]
+    },
+    "ptageatnotification": {
+      "advice_en": [
+        "Focus on healthy lifestyle changes.",
+        "Have regular health check-ups.",
+        "Stay socially active and connect with others.",
+        "Do activities that are good for your brain.",
+        "Choose exercises suitable for your age."
+      ],
+      "advice_bm": [
+        "Fokus pada cara hidup sihat.",
+        "Buat pemeriksaan kesihatan secara tetap.",
+        "Selalu bergaul dan berhubung dengan orang lain.",
+        "Buat aktiviti yang bagus untuk minda.",
+        "Pilih senaman yang sesuai dengan umur."
+      ]
+    },
+    "heartrate": {
+      "advice_en": [
+        "Check your heart rate regularly at home.",
+        "Try relaxation techniques like slow breathing.",
+        "Maintain good sleep habits.",
+        "Stay hydrated by drinking enough water.",
+        "Avoid too much caffeine."
+      ],
+      "advice_bm": [
+        "Periksa denyutan jantung di rumah dengan kerap.",
+        "Cuba teknik relaksasi seperti tarik nafas perlahan-lahan.",
+        "Tidur dengan cukup setiap hari.",
+        "Minum air yang cukup.",
+        "Elakkan minuman berkafein seperti kopi."
+      ]
+    },
+    "ldlc": {
+    "advice_en": [
+      "Follow a heart-healthy diet.",
+      "Eat more fiber-rich foods.",
+      "Exercise regularly.",
+      "Try plant-based sterols to lower cholesterol.",
+      "Cut down on fatty foods."
+    ],
+    "advice_bm": [
+      "Ikut diet yang menyihatkan jantung.",
+      "Tingkatkan pengambilan makanan berserat.",
+      "Bersenam secara tetap.",
+      "Cuba sterol tumbuhan untuk turunkan kolesterol.",
+      "Hadkan makanan berlemak tepu dan lemak trans."
+    ]
+  },
+  "hdlc": {
+    "advice_en": [
+      "Do regular aerobic exercises.",
+      "Maintain a healthy weight.",
+      "Consider moderate alcohol if suitable.",
+      "Stop smoking.",
+      "Eat more omega-3 fatty acids."
+    ],
+    "advice_bm": [
+      "Lakukan senaman aerobik dengan kerap.",
+      "Kekalkan berat badan yang sihat.",
+      "Pertimbangkan pengambilan alkohol sederhana (jika sesuai).",
+      "Berhenti merokok.",
+      "Tingkatkan pengambilan asid lemak omega-3."
+    ]
+  },
+  "fbg": {
+    "advice_en": [
+      "Eat your meals at the same time every day.",
+      "Control the portion sizes of your meals.",
+      "Exercise regularly.",
+      "Manage stress well.",
+      "Get enough sleep daily."
+    ],
+    "advice_bm": [
+      "Makan pada masa yang sama setiap hari.",
+      "Kawal saiz hidangan makanan.",
+      "Bersenam dengan kerap.",
+      "Uruskan tekanan dengan baik.",
+      "Tidur yang mencukupi setiap hari."
+    ]
+  },
+  "killipclass": {
+    "advice_en": [
+      "Follow your treatment plan exactly as advised by the doctor.",
+      "Check for any symptoms regularly.",
+      "Reduce water and salt intake if advised.",
+      "Weigh yourself every day.",
+      "Tell your doctor if your symptoms get worse."
+    ],
+    "advice_bm": [
+      "Ikut pelan rawatan seperti yang diarahkan oleh doktor.",
+      "Pantau gejala dengan kerap.",
+      "Kurangkan pengambilan air dan garam jika dinasihatkan.",
+      "Timbang berat badan setiap hari.",
+      "Beritahu doktor jika gejala semakin teruk."
+    ]
+  }
+  }

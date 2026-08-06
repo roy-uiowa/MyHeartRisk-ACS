@@ -1,0 +1,165 @@
+{
+    "ptageatnotification": {
+        "question_en": "Age",
+        "question_bm": "Umur",
+        "tooltip_en": "Your age when you had a recent heart attack.",
+        "tooltip_bm": "Umur anda ketika mengalami serangan jantung baru-baru ini."
+    },
+
+    "sex": {
+        "question_en": "Gender",
+        "question_bm": "Jantina",
+        "tooltip_en": "What is your gender? The patient's biological sex. Risk scores may differ between men and women. Values: 0 = Men, 1 = Women.",
+        "tooltip_bm": "Apakah jantina anda? Jantina biologi pesakit. Markah risiko mungkin berbeza antara lelaki dan wanita. Nilai: 0 = Lelaki, 1 = Perempuan"
+    },
+
+    "heartrate": {
+      "question_en": "Please enter your latest Heart Rate value",
+      "question_bm": "Sila masukkan nilai Denyutan Jantung anda terkini",
+      "tooltip_en": "The patient's heart rate in beats per minute (bpm). A normal resting heart rate is typically between 60-100 bpm.",
+      "tooltip_bm": "Kadar denyutan jantung pesakit dalam denyutan seminit (bpm). Kadar denyutan jantung rehat yang biasanya antara 60-100 bpm."
+    },
+
+    "canginapast2wk": {
+      "question_en": "Have you had chest pain recently ? Chronic Angina (Past 2 weeks)",
+      "question_bm": "Adakah anda mengalami sakit dada baru-baru ini? Angina Kronik (2 minggu lepas)",
+      "tooltip_en": "Indicates if the patient experienced symptoms such as chest tightness, shortness of breath in the past 2 weeks. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Menunjukkan jika pesakit mengalami simptom seperti sesak dada, sesak nafas dalam tempoh 2 minggu yang lalu. Nilai: 0 = Tidak, 1 = Ya."
+    },
+
+    "killipclass": {
+      "question_en": "If you have recently had a heart attack, has your doctor told you that your heart is weak?",
+      "question_bm": "Sekiranya anda ada diserang penyakit jantung baru-baru ini, adakah doktor anda ada memberitahu yang jantung anda lemah?",
+      "tooltip_en": "Values: 0 = No, 1 = Yes, 0 = Unknown",
+      "tooltip_bm": "Nilai: 0 = Tidak, 1 = Ya, 0 = Tidak Tahu",
+      "follow_up": {
+        "question_en": "If yes, what is the condition of your heart?",
+        "question_bm": "Sekiranya Ya, apakah keadaan jantung anda?",
+        "tooltip_en": {
+          "No": "My heart is fine and I have no experience shortness of breath (Killip Class I)",
+          "Yes": [
+            {"2": "The doctor told me that my heart is weak and I have difficulty breathing (Killip Class II)"},
+            {"3": "The doctor told me that my heart is weak and there is water in my lungs after checking or doing a chest X-ray (Killip Class III)"},
+            {"4": "The doctor told me that my heart is weak and I have low blood pressure (Killip Class IV)"}
+          ]
+        },
+        "tooltip_bm": {
+          "Tiada": "Jantung saya dalam keadaan baik dan tidak mengalami sesak nafas",
+          "Ya": [
+            {"2": "Doktor beritahu jantung saya lemah dan mengalami kesukaran bernafas (Killip Class 2)"},
+            {"3": "Doktor beritahu jantung saya lemah dan beritahu ada air di dalam paru-paru setelah diperiksa atau melakukan X-ray dada (Killip Class 3)"},
+            {"4": "Doktor beritahu jantung saya lemah dan mengalami tekanan darah rendah (Killip Class 4)"}
+          ]
+        }
+      }
+    },
+
+    "tc": {
+        "question_en": "Total Cholesterol",
+        "question_bm": "Total Cholesterol",
+        "tooltip_en": "What is your Total Cholesterol reading recently? Total cholesterol, a measure of all cholesterol in the blood. High levels can increase the risk of heart disease. Normal range: <5.17 mmol/L.",
+        "tooltip_bm": "Apakah bacaan Jumlah kolesterol anda yang terkini?, ukuran semua kolesterol dalam darah. Tahap yang tinggi boleh meningkatkan risiko penyakit jantung. Julat normal: <5.17 mmol/L."
+    },
+
+    "hdlc": {
+      "question_en": "HDL Cholesterol",
+      "question_bm": "Kolesterol HDL",
+      "tooltip_en": "What is your good cholesterol (HDL) reading recently? High-Density Lipoprotein (HDL) cholesterol, often referred to as 'good' cholesterol. Higher levels are typically better for cardiovascular health. Normal range: >1.03 mmol/L.",
+      "tootltip_bm": "Apakah bacaan Kolesterol baik (HDL) anda yang terkini? Kolesterol Lipoprotein Berketumpatan Tinggi (HDL), sering dirujuk sebagai kolesterol 'baik'. Tahap yang lebih tinggi biasanya lebih baik untuk kesihatan kardiovaskular. Julat normal: >1.03 mmol/L"
+    },
+
+    "ldlc": {
+      "question_en": "LDL Cholesterol",
+      "question_bm": "Kolesterol LDL",
+      "tooltip_en": "What is your bad cholesterol (LDL) reading recently? Low-Density Lipoprotein (LDL) cholesterol, often referred to as 'bad' cholesterol. High levels increase the risk of heart disease. Normal range: <2.6 mmol/L.",
+      "tooltip_bm": "Apakah bacaan kolesterol jahat (LDL) anda yang terkini? Kolesterol Lipoprotein Ketumpatan Rendah (LDL), sering dirujuk sebagai kolesterol 'jahat'. Tahap yang tinggi meningkatkan risiko penyakit jantung. Julat normal: <2.6 mmol/L."
+    },
+    
+    "fbg": {
+      "question_en": "Fasting Blood Glucose",
+      "question_bm": "Glukosa Darah Puasa",
+      "tooltip_en": "Please enter your blood glucose value during fasting. Normal range: 3.9 mmol/L - 5.6 mmol/L",
+      "tooltip_bm": "Sila masukkan nilai gula dalam darah anda semasa berpuasa. Julat normal: 3.9 mmol/L - 5.6 mmol/L"
+    },
+
+    "cabg": {
+      "question_en": "Have you ever had coronary artery bypass surgery (CABG)? Coronary Artery Bypass Graft",
+      "question_bm": "Pernahkah anda melakukan pembedahan cantuman pintasan jantung (CABG)? Cantuman Pintasan Arteri Koronari",
+      "tooltip_en": "Indicates whether the patient has undergone coronary artery bypass graft (CABG) surgery, which improves blood flow to the heart. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Menunjukkan sama ada pesakit telah menjalani pembedahan pintasan arteri koronari (CABG), yang meningkatkan aliran darah ke jantung. Nilai: 0 = Tidak, 1 = Ya."
+    },
+
+    "cardiaccath": {
+      "question_en": "Coronary Angiogram",
+      "question_bm": "Angiogram Koronari",
+      "tooltip_en": "Have you ever had a coronary angiogram procedure? Indicates whether the patient has undergone coronary angiogram. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Pernahkah anda menjalani prosedur koronari angiogram? Menunjukkan sama ada pesakit telah menjalani angiogram koronari. Nilai: 0 = Tidak, 1 = Ya."
+    },
+
+    "ecgabnormlocationll": {
+      "question_en": "Have you ever been told by a doctor that your ECG is abnormal?",
+      "question_bm": "Pernahkah anda diberitahu oleh doktor yang ECG anda tidak normal?",
+      "tooltip_en": "Values: 0 = No, 1 = Yes, 0 = Unknown",
+      "tooltip_bm": "Nilai: 0 = Tidak, 1 = Ya, 0 = Tidak Tahu",
+      "follow_up": {
+        "question_en": "If yes, is it patterned ST Elevation, ST Depression or Left Bundle Branch Block?",
+        "question_bm": "Sekira Ya, adakah ia bercorak ST Elevation, ST Depression atau Left Bundle Branch Block?",
+        "tooltip_en": "Values: 0 = No, 1 = Yes, 0 = Unknown",
+        "tooltip_bm": "Nilai: 0 = Tidak, 1 = Ya, 0 = Tidak Tahu"
+      }
+    },
+   
+    "lipidla": {
+      "question_en": "Lipid Lowering Agent",
+      "question_bm": "Agen Penurun Lipid",
+      "tooltip_en": "Are you taking lipid lowering medication? . Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Adakah anda mengambil ubat untuk menurunkan paras kolesterol? Nilai: 0 = Tidak, 1 = Ya."
+    },
+
+    "statin": {
+      "question_en": "Statin",
+      "question_bm": "Statin",
+      "tooltip_en": "Do you take the following medication : Lovastatin, Fibrate, Exetemibe,PCSK9 for lowering your cholesterol level? Indicates whether the patient is taking statins to lower cholesterol levels. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Adakah anda mengambil ubat berikut : Lovastatin, fibrate, Exetemibe, PCSK9 untuk menurunkan paras kolesterol anda? Menunjukkan sama ada pesakit mengambil statin untuk menurunkan paras kolesterol. Nilai: 0 = Tidak, 1 = Ya."
+    },
+
+    "antiarr": {
+      "question_en": "Are you taking medication to control your heart rhythm? Anti-Arrhythmic Agent",
+      "question_bm": "Adakah anda mengambil ubat untuk mengawal ritma jantung anda? Agen Anti-Aritmia",
+      "tooltip_en": "Such as amiodarone, flecamide. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Seperti amiodarone, flecamide. Nilai: 0 = Tidak, 1 = Ya."
+    },      
+
+    "bpsys_treatment": {
+      "question_en": "Treatment for Hypertension",
+      "question_bm": "Rawatan untuk Hipertensi",
+      "tooltip_en": "Are you taking high blood pressure medication? Indicates if the patient is receiving treatment for high blood pressure. Values: 0 = Not treated, 1 = Treated.",
+      "tooltip_bm": "Adakah anda mengambil ubat tekanan darah tinggi? Menunjukkan jika pesakit sedang menerima rawatan untuk tekanan darah tinggi. Nilai: 0 = Tidak dirawat, 1 = Dirawat."
+    },
+
+    "diabetes": {
+      "question_en": "Diabetes",
+      "question_bm": "Kencing Manis",
+      "tooltip_en": "Do you have diabetes? Indicates if the patient has diabetes, a significant risk factor for heart disease. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Adakah anda mengidap penyakit kencing manis? Menunjukkan jika pesakit menghidap Kencing Manis, faktor risiko yang ketara untuk penyakit jantung. Nilai: 0 = Tidak, 1 = Ya."
+    },
+
+    "oralhypogly": {
+      "question_en": "Are you taking medication to control blood sugar? Oral Hypoglycemic Agent",
+      "question_bm": "Adakah anda mengambil ubat untuk mengawal paras gula? agen Hipoglisemik Oral",
+      "tooltip_en": "Do you take the following medication: metformin, sulfonylurea, SGLT-Inhibitor, GLP-Inhibitor. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Adakah anda mengambil ubat berikut: metformin, sulfonylurea, SGLT-Inhibitor, GLP-Inhibitor. Nilai: 0 = Tidak, 1 = Ya."
+    },
+
+    "smoker": {
+      "question_en": "Smoker",
+      "question_bm": "Perokok",
+      "tooltip_en": "Do you currently smoke cigarettes, vape, or use any other tobacco products? Indicates if the patient is a current smoker, which increases the risk of cardiovascular disease. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Adakah pada masa ini anda menghisap rokok, vape, atau menggunakan mana-mana produk tembakau lain? Menunjukkan jika pesakit adalah seorang perokok semasa, yang meningkatkan risiko penyakit kardiovaskular. Nilai: 0 = Tidak, 1 = Ya.",
+      "follow_up": {
+        "question_en": "If you used to smoke but have quit, how long has it been since you stopped?",
+        "question_bm": "Jika anda pernah merokok tetapi telah berhenti, sudah berapa lama anda telah berhenti merokok?"
+      }
+    }
+}
+   

@@ -1,7 +1,8 @@
 # MyHeartRisk: ACS Prediction API
 
 **Version:** 1.0.0  
-**Description:** This API uses machine learning models to predict the risk of death for Acute Coronary Syndrome (ACS) patients based on clinical parameters, and provides risk explanations using LIME.
+**Description:** This API uses machine learning models to predict the risk of death for Acute Coronary Syndrome (ACS) patients based on clinical parameters, and provides risk explanations using LIME. This project was developed according to the standard of [ACS_2019](https://www.safetyandquality.gov.au/clinical-care-standards/acute-coronary-syndromes)
+ 
 
 ## Table of Contents
 - [Project Structure](#project-structure)
@@ -96,7 +97,7 @@ MyHeartRisk-ACS/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/MyHeartRisk-ACS.git
+git clone https://github.com/roy-uiowa/MyHeartRisk-ACS.git
 cd MyHeartRisk-ACS
 ```
 

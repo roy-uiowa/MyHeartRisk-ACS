@@ -1,0 +1,130 @@
+{
+    "ptageatnotification": {
+      "feature_name_en": "Age",
+      "feature_name_bm": "Umur",
+      "tooltip_en": "The patient's age when he/she experience their recent heart attack.",
+      "tooltip_bm": "Umur pesakit apabila dia mengalami serangan jantung baru-baru ini."
+    },
+    "heartrate": {
+      "feature_name_en": "Heart Rate",
+      "feature_name_bm": "Denyutan Jantung",
+      "tooltip_en": "The patient's heart rate in beats per minute (bpm). A normal resting heart rate is typically between 60-100 bpm.",
+      "tooltip_bm": "Kadar denyutan jantung pesakit dalam denyutan seminit (bpm). Kadar denyutan jantung rehat yang biasanya antara 60-100 bpm."
+    },
+    "canginapast2wk": {
+      "feature_name_en": "Chronic Angina (Past 2 weeks)",
+      "feature_name_bm": "Angina Kronik (2 minggu lepas)",
+      "tooltip_en": "Indicates if the patient experienced symtomps such as chest tightness, shortness of breath in the past 2 weeks. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Menunjukkan jika pesakit mengalami simptom seperti sesak dada, sesak nafas dalam tempoh 2 minggu yang lalu. Nilai: 0 = Tidak, 1 = Ya."
+    },
+    "killipclass": {
+      "feature_name_en": "If you have recently had a heart attack, has your doctor told you that your heart is weak?",
+      "feature_name_bm": "Sekiranya anda ada diserang penyakit jantung baru-baru ini, adakah doktor anda ada memberitahu yang jantung anda lemah?",
+      "tooltip_en": {
+        "No": "My heart is fine and I have no experience shortness of breath (Killip Class I)",
+        "Yes":[
+          {"2": "The doctor told me that my heart is weak and I have difficulty breathing (Killip Class II)"},
+          {"3": "The doctor told me that my heart is weak and there is water in my lungs after checking or doing a chest X-ray (Killip Class III)"},
+          {"4": "The doctor told me that my heart is weak and I have low blood pressure (Killip Class IV)"}
+        ]
+      },
+      "tooltip_bm": {
+        "Tiada": "Jantung saya dalam keadaan baik dan tidak mengalami sesak nafas",
+        "Ya":[
+          {"2": "Doktor beritahu jantung saya lemah dan mengalami kesukaran bernafas (Killip Class 2)"},
+          {"3": "Doktor beritahu jantung saya lemah dan beritahu ada air di dalam paru-paru setelah diperiksa atau melakukan X-ray dada (Killip Class 3)"},
+          {"4": "Doktor beritahu jantung saya lemah dan mengalami tekanan darah rendah (Killip Class 4)"}
+        ]
+      }
+    },
+    "hdlc": {
+      "feature_name_en": "HDL Cholesterol",
+      "feature_name_bm": "Kolesterol HDL",
+      "tooltip_en": "High-Density Lipoprotein (HDL) cholesterol, often referred to as 'good' cholesterol. Higher levels are typically better for cardiovascular health. Normal range: >1.03 mmol/L.",
+      "tootltip_bm":  "Kolesterol Lipoprotein Berketumpatan Tinggi (HDL), sering dirujuk sebagai kolesterol 'baik'. Tahap yang lebih tinggi biasanya lebih baik untuk kesihatan kardiovaskular. Julat normal: >1.03 mmol/L"
+    },
+    "ldlc": {
+      "feature_name_en": "LDL Cholesterol",
+      "feature_name_bm": "Kolesterol LDL",
+      "tooltip_en": "Low-Density Lipoprotein (LDL) cholesterol, often referred to as 'bad' cholesterol. High levels increase the risk of heart disease. Normal range: <2.6 mmol/L.",
+      "tooltip_bm": "Kolesterol Lipoprotein Ketumpatan Rendah (LDL), sering dirujuk sebagai kolesterol 'jahat'. Tahap yang tinggi meningkatkan risiko penyakit jantung. Julat normal: <2.6 mmol/L."
+    },
+    "fbg": {
+      "feature_name_en": "Fasting Blood Glucose",
+      "feature_name_bm": "Glukosa Darah Puasa",
+      "tooltip_en": "Please enter your blood glucose value during fasting state. Normal range: 3.9 mmol/L - 5.6 mmol/L",
+      "tooltip_bm": "Sila masukkan nilai glukosa darah anda semasa berpuasa. Julat normal: 3.9 mmol/L - 5.6 mmol/L"
+    },
+    "cabg": {
+      "feature_name_en": "Coronary Artery Bypass Graft",
+      "feature_name_bm": "Cantuman Pintasan Arteri Koronari",
+      "tooltip_en": "Indicates whether the patient has undergone coronary artery bypass graft (CABG) surgery, which improves blood flow to the heart. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Menunjukkan sama ada pesakit telah menjalani pembedahan pintasan arteri koronari (CABG), yang meningkatkan aliran darah ke jantung. Nilai: 0 = Tidak, 1 = Ya."
+    },
+    "oralhypogly": {
+      "feature_name_en": "Oral Hypoglycemic Agent",
+      "feature_name_bm": "Ejen Hipoglisemik Oral",
+      "tooltip_en": "Is the patient on the following medication: metformin, sulfonylurea, SGLT-Inhibitor, GLP-Inhibitor. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Adakah pesakit mengambil ubat berikut: metformin, sulfonylurea, SGLT-Inhibitor, GLP-Inhibitor. Nilai: 0 = Tidak, 1 = Ya."
+    },
+    "antiarr": {
+      "feature_name_en": "Anti-Arrhythmic Agent",
+      "feature_name_bm": "Egen Anti-Aritmia",
+      "tooltip_en": "Such as amiodarone, flecamide. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Seperti amiodarone, flecamide. Nilai: 0 = Tidak, 1 = Ya."
+    },
+    "ecgabnormlocationll": {
+      "feature_name_en": "ST-Segment Elevation ≥ 1mm (in ≥ 2 contiguous limb leads)",
+      "feature_name_bm": "Ketinggian Segmen ST  ≥ 1mm (in ≥ 2 contiguous limb leads)",
+      "tooltip_en": "ST-segment elevation ≥1mm in two or more contiguous limb leads, which is a significant finding on an ECG indicating a possible myocardial infarction. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Ketinggian segmen ST ≥1mm dalam dua atau lebih lead yang berdekatan yang merupakan penemuan penting pada ECG yang menunjukkan kemungkinan infarksi miokardium. Nilai: 0 = Tidak, 1 = Ya."
+    },
+    "cardiaccath": {
+      "feature_name_en": "Coronary Angiogram",
+      "feature_name_bm": "Angiogram Koronari",
+      "tooltip_en": "Indicates whether the patient has undergone coronary angiogram. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Menunjukkan sama ada pesakit telah menjalani angiogram koronari. Nilai: 0 = Tidak, 1 = Ya."
+    },
+    "statin": {
+      "feature_name_en": "Statin",
+      "feature_name_bm": "Statin",
+      "tooltip_en": "Indicates whether the patient is taking statins to lower cholesterol levels. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Menunjukkan sama ada pesakit mengambil statin untuk menurunkan paras kolesterol. Nilai: 0 = Tidak, 1 = Ya."
+    },
+    "lipidla": {
+      "feature_name_en": "Lipid Lowering Agent",
+      "feature_name_bm": "Egen Penurun Lipid",
+      "tooltip_en": "Indicates whether the patient is taking lipid-lowering agents to reduce cholesterol and triglyceride levels. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Menunjukkan sama ada pesakit mengambil egen penurun lipid untuk mengurangkan paras kolesterol dan trigliserida. Nilai: 0 = Tidak, 1 = Ya."
+    },
+    "sex": {
+      "feature_name_en": "Gender",
+      "feature_name_bm": "Jantina",
+      "tooltip_en": "The patient's biological sex. Risk scores may differ between men and women. Values: 0 = Men, 1 = Women.",
+      "tooltip_bm": "Jantina biologi pesakit. Markah risiko mungkin berbeza antara lelaki dan wanita. Nilai: 0 = Lelaki, 1 = Perempuan"
+    },
+    "tc": {
+      "feature_name_en": "Total Cholesterol",
+      "feature_name_bm": "Total Cholesterol",
+      "tooltip_en": "Total cholesterol, a measure of all cholesterol in the blood. High levels can increase the risk of heart disease. Normal range: <5.17 mmol/L.",
+      "tooltip_bm": "Jumlah kolesterol, ukuran semua kolesterol dalam darah. Tahap yang tinggi boleh meningkatkan risiko penyakit jantung. Julat normal: <5.17 mmol/L."
+    },
+    "bpsys_treatment": {
+      "feature_name_en": "Treatment for Hypertension",
+      "feature_name_bm": "Rawatan untuk Hipertensi",
+      "tooltip_en": "Indicates if the patient is receiving treatment for high blood pressure. Values: 0 = Not treated, 1 = Treated.",
+      "tooltip_bm": "Menunjukkan jika pesakit sedang menerima rawatan untuk tekanan darah tinggi. Nilai: 0 = Tidak dirawat, 1 = Dirawat."
+    },
+    "smoker": {
+      "feature_name_en": "Smoker",
+      "feature_name_bm": "Perokok",
+      "tooltip_en": "Indicates if the patient is a current smoker, which increases the risk of cardiovascular disease. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Menunjukkan jika pesakit adalah seorang perokok semasa, yang meningkatkan risiko penyakit kardiovaskular. Nilai: 0 = Tidak, 1 = Ya."
+    },
+    "diabetes": {
+      "feature_name_en": "Diabetes",
+      "feature_name_bm": "Kencing Manis",
+      "tooltip_en": "Indicates if the patient has diabetes, a significant risk factor for heart disease. Values: 0 = No, 1 = Yes.",
+      "tooltip_bm": "Menunjukkan jika pesakit menghidap Kencing Manis, faktor risiko yang ketara untuk penyakit jantung. Nilai: 0 = Tidak, 1 = Ya."
+    }
+  }
