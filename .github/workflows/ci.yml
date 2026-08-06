@@ -29,7 +29,7 @@ jobs:
       # Build and push Docker image
       - name: 'Build Docker image and push to registry'
         env: 
-            IMAGE_TAG: latest
+            IMAGE_TAG: latest_v1
         run: | 
           docker build MyHeatRisk-ACS --file MyHeartRisk-ACS/Dockerfile --tag ${{ secrets.DOCKERHUB_USERNAME }}/myheartrisk-acs-api:$IMAGE_TAG
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/myheartrisk-acs-api:$IMAGE_TAG
