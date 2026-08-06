@@ -5,4 +5,9 @@ numpy==2.1.3
 uvicorn==0.52.0
 joblib==1.5.3
 pandas==2.3.3
+<<<<<<< HEAD
 lime==0.2.0.1
+=======
+lime==0.2.0.1
+pytest==9.0.3
+>>>>>>> eca2003ede04f1e7dd4afc2f939b3928b52c8395

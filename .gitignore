@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+.env.*
+.setup.txt
+.starter.sh
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data & artifacts (keep .gitkeep)
+# data/* 
+!data/.gitkeep
+!data/**/.gitkeep
+# models/*
+!models/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+metrics/*
+!metrics/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# DVC/MLflow
+.dvc/
+.mlflow/
+mlruns/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

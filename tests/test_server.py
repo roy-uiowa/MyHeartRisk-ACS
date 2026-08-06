@@ -110,7 +110,7 @@ class TestFRSEndpoint:
         """POST /frs with empty body."""
         response = client.post("/frs", json={})
         assert response.status_code == 200
-        mock_get_frs.assert_called_once_with({}  # patched in fixture if needed
+        mock_get_frs.assert_called_once_with({})  # patched in fixture if needed
 
 
 class TestACSEndpoint:

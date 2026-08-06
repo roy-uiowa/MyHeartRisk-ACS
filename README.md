@@ -36,6 +36,10 @@ MyHeartRisk-ACS/
 │   ├── tool_tip.json            # List of tips on how to use MyHeartRisk API
 │   ├── X_test_stemi_state.pkl   # Test data for LIME
 │   └── X_train_stemi_state.pkl  # Training data for LIME
+├── tests/
+│   ├── server_unit_test.py          # pytest for accuracy of api on live server
+│   ├── test_acs_endpoint.py         # Tests ACS+LIME  prediction endpoint
+│   └── test_frs_endpoint.py         # Tests FRS score prediction endpoint
 ├── Dockerfile                     # Docker instructions
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Documentation
