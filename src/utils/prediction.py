@@ -21,7 +21,7 @@ def predict_risk(data: dict,model, class_names: list):
 
     # Return result
     return {
-        #     'threshold': threshold,
+            # 'threshold': threshold,
             'result': result,
             'probability': formatted_probability,
     }

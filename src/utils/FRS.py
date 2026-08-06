@@ -365,7 +365,7 @@ def get_women_score_group(score):
 def getFRSRisk(data:dict):
 
     # Extract value
-    age =  round(data['ptageatnotification'])
+    age =  round(data['age'])
     sex =  'men' if data['sex'] == 0 else 'women'
     hdlc =  data['hdlc']
     tc =  data['tc']

@@ -19,23 +19,23 @@
 
 ```
 MyHeartRisk-ACS/
-├── app/
-│   └── server.py                 # FastAPI server and routes
 ├── model/
 │   ├── XGB_model.pkl         # XGBoost prediction model
 │   └── LIME_XGB_model.pkl    # LIME explainer model
 ├── src/
-│   ├── XGB_model.pkl         # XGBoost prediction model
-│   └── LIME_XGB_model.pkl    # LIME explainer model
+|   ├── app/
+|   │   └── server.py         # FastAPI server and routes
+|   ├── utils/
+|   │   ├── prediction.py         # Prediction logic
+|   │   ├── LIME.py               # LIME explanation logic
+|   │   └── FRS.py                # Framingham Risk Score logic 
 ├── notebooks/
-│   ├── XGB_model.pkl         # XGBoost prediction model
-│   └── LIME_XGB_model.pkl    # LIME explainer model
+│   └── EDA.ipynb    # Exploratory data analysis
 ├── data/
+│   ├── advice.json              # List of Suggestion based on Patient Conditions
+│   ├── tool_tip.json            # List of tips on how to use MyHeartRisk API
+│   ├── X_test_stemi_state.pkl   # Test data for LIME
 │   └── X_train_stemi_state.pkl  # Training data for LIME
-├── utils/
-│   ├── prediction.py         # Prediction logic
-│   ├── LIME.py               # LIME explanation logic
-│   └── FRS.py                # Framingham Risk Score logic 
 ├── Dockerfile                     # Docker instructions
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Documentation

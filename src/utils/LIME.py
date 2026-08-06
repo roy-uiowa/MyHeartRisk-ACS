@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 def explain(data: dict, explainer, lime_model):
 
-    with open('../app/data/advice.json', 'r') as f:
+    with open('data/advice.json', 'r') as f:
         advice_json = json.load(f)
     
     # Choose an instance to explain
@@ -43,7 +43,7 @@ def explain(data: dict, explainer, lime_model):
         if impact == "positive":
             for feature_item, details in advice_json.items():
                 if feature_item == feature_name:
-                    advice = details['advice_bm']
+                    advice = details['advice_en']
         else:
             advice = []   
         
