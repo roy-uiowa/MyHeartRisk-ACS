@@ -32,7 +32,7 @@ MyHeartRisk-ACS/
 ├── notebooks/
 │   └── EDA.ipynb    # Exploratory data analysis
 ├── data/
-│   ├── advice.json              # List of Suggestion based on Patient Conditions
+│   ├── advice.json              # List of suggestion based on patient conditions
 │   ├── tool_tip.json            # List of tips on how to use MyHeartRisk API
 │   ├── X_test_stemi_state.pkl   # Test data for LIME
 │   └── X_train_stemi_state.pkl  # Training data for LIME
