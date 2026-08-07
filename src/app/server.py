@@ -172,9 +172,8 @@ def predict_acs(data:ACSData):
 
 
         
-
     model_prediction = predict_risk(lime_data, lime_model, class_names)
-    model_prediction['GRACE_risk_score'], model_prediction['category'] = calculate_acs(data)
+    model_prediction['GRACE_risk_score'], model_prediction['Grace_category'] = calculate_acs(data)
     contribution_to_death = explain(lime_data, explainer, lime_model)
     result = {
         'model_prediction': model_prediction,

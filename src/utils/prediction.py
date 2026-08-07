@@ -1,6 +1,15 @@
 import pandas as pd
 import numpy as np
 
+def categorizedRisk(probability):
+        if probability < 0.35:
+                category = "Low Risk"
+        elif 0.36<= probability <= 0.65:
+                category = "Intermediate Risk"
+        else:
+                category = "High Risk"
+        return category
+
 # Predict Function
 def predict_risk(data: dict,model, class_names: list):
     # Default Threshold
@@ -24,4 +33,5 @@ def predict_risk(data: dict,model, class_names: list):
             # 'threshold': threshold,
             'result': result,
             'probability': formatted_probability,
+            'category': categorizedRisk(formatted_probability)
     }

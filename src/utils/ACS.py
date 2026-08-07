@@ -41,9 +41,6 @@ class ACSData(BaseModel):
             }
         }
 
-
-
-
 def calculate_acs(data: ACSData) -> tuple[float, str]:
     """
     Placeholder ACS risk calculation.
