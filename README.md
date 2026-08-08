@@ -24,11 +24,11 @@ MyHeartRisk-ACS/
 │   └── LIME_XGB_model.pkl    # LIME explainer model
 ├── src/
 |   ├── app/
-|   │   └── server.py         # FastAPI server and routes
-|   ├── utils/
-|   │   ├── prediction.py         # Prediction logic
-|   │   ├── LIME.py               # LIME explanation logic
-|   │   └── FRS.py                # Framingham Risk Score logic 
+│   │   └── server.py         # FastAPI server and routes
+│   └── utils/
+│       ├── prediction.py         # Prediction logic
+│       ├── LIME.py               # LIME explanation logic
+│       └── FRS.py                # Framingham Risk Score logic 
 ├── notebooks/
 │   └── EDA.ipynb    # Exploratory data analysis
 ├── data/

@@ -13,6 +13,11 @@ HEADERS = {
         "15.6%",
         "Intermediate Risk"
     ),
+    (
+        {"age":77,"sex":0,"hdlc":1.5,"tc":6,"bpsys":120,"bpsys_treatment":0,"smoker":1,"diabetes":1},
+        ">30%",
+        "High Risk"
+    )
     # Add more test cases here
 ])
 def test_frs_scenarios(payload, expected_probability, expected_category):
@@ -34,6 +39,13 @@ def test_frs_scenarios(payload, expected_probability, expected_category):
          0.261,
          "alive"
     ),
+    (
+        {"ptageatnotification":77,"heartrate":110,"canginapast2wk":1,
+         "killipclass":2,"hdlc":1.5,"ldlc":1.5,"fbg":13.5,"cabg":0,"oralhypogly":0,
+         "antiarr":0,"ecgabnormlocationll":0,"cardiaccath":0,"statin":0,"lipidla":0},
+         0.721,
+         "death"
+    )
     # Add more test cases here
 ])
 
