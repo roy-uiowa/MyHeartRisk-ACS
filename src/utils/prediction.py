@@ -5,7 +5,7 @@ def categorizedRisk(probability):
         if probability < 0.35:
                 category = "Low Risk"
         elif 0.36<= probability <= 0.65:
-                category = "Intermediate Risk"
+                category = "Medium Risk"
         else:
                 category = "High Risk"
         return category
